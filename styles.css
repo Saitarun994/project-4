@@ -1,0 +1,186 @@
+@font-face {
+    font-family:'Lexend Mega';
+    src: url(Fonts/LexendMega-Regular.ttf) format("truetype");
+}
+html{
+    font-family:'Lexend Mega';
+    font-size:16px;
+}
+
+body{
+    margin:0px;
+    padding:0px;
+}
+
+.head{
+    display: flex;
+    height:100px;
+    width:90%;
+    margin: 20px auto;
+    font-size: calc(1rem + 1vw);
+    justify-content: center;
+    align-items: center;
+}
+
+.head h1{
+    text-align: center;   
+}
+
+nav ul{
+    margin:50px auto;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    list-style: none;
+    text-align:center;
+}
+
+
+nav ul li a{
+    display:inline-block;
+    padding:10px 10px;
+    text-align:center;
+   
+    color: black;
+    font-size:calc(0.5rem+1vw);
+}
+
+.mission{
+    display:flex;
+    min-height:330px;
+    width:100%;
+    background-image: url("pictures/5be98a7d18e35.jpg");
+    background-position: bottom;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.missiontext{
+    position:relative;
+    top:130px;
+    background-color: white;
+    width:100%;
+    height:80%;
+    justify-content: center;
+    align-items: center;
+}
+
+.missiontext h2{
+    text-align: center;
+    font-size: calc(0.8rem+1vw);
+    margin:10px 0px;
+}
+
+.missiontext h4{
+    text-align: center;
+    font-size: calc(0.7rem+1vw);
+    margin:10px 0px;
+}
+
+.portfolio{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    clear:both;
+}
+
+.portfoliohead{
+    display:inline-block;
+    
+    width:100%;
+    text-align:center;
+    margin:10px;
+    clear:both;
+}
+.portfoliohead h2{
+    font-size: 32px;
+}
+.portfoliohead h4{
+    font-size: 22px;
+}
+
+.portfoliobox{
+    display:flex;
+    width:470px;
+    height:154px;
+    margin:5px;
+    justify-content: flex-start;
+    align-content: center;
+   
+}
+
+.portfoliobox img{
+    width:200px;
+    height:auto;
+    padding:10px;
+}
+
+.portfoliobox span{
+    font-size: 22px;
+    font-weight: bold;
+    align-self: center;
+    margin:10px;
+}
+
+.team{
+    display:flex;
+    flex-wrap: wrap;
+    width:100%;
+    
+    padding-top:10px;
+    justify-content: center;
+    background-image: url("Pictures/75734941-narrow-passage-between-old-houses-in-italy-street-with-archway-in-the-medieval-italian-town-black-an\ \(1\).jpg");
+    background-position: bottom;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.member{
+    padding: 10px;
+    color: white;
+    flex-basis: 280px;
+    text-align: center;
+}
+.member img{
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+    height: auto;
+}
+
+.member h3{
+    color: rgb(255, 184, 53);
+    font-size: 28px;
+    padding:10px;
+    margin:0px;
+}
+
+.member p{
+    color: rgb(255, 184, 53);
+    font-size: 20px;
+    padding:10px;
+    margin:0px;
+}
+
+footer {
+    background-color: white;
+    margin-top:10px;
+    text-align: center;
+    width:100%;
+    z-index: 10;
+}
+footer h3{
+    font-size: calc(1rem + 1vw);
+}
+
+footer h5{
+    font-size: calc(0.6rem + 1vw);
+}
+
+footer span{
+    font-size: calc(0.5rem + 1vw);
+}
+
+footer h4{
+    font-size: calc(0.8rem + 1vw);
+}
